@@ -71,7 +71,8 @@ Finally, to visualize the game state, use the draw() function and Love2D's nativ
   
 ## Documentation
 For more information, make sure to read the Love2D documentation on its different modules and functionalities.
-
+## Preview
+![img](https://github.com/Sowiastyy/sowCombat/blob/master/preview.PNG)
 ## Contributions
 Contributions are welcome. Please feel free to fork this repository and create pull requests!
 
