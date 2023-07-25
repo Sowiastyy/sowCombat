@@ -73,7 +73,7 @@ function love.draw()
 end
 ```
 ## Documentation
-For more information, make sure to read the Love2D documentation on its different modules and functionalities.
+For more information, make sure to read the [Love2D](https://love2d.org/wiki/Main_Page) documentation on its different modules and functionalities.
 ## Preview
 ![img](https://github.com/Sowiastyy/sowCombat/blob/master/preview.PNG)
 ## Contributions
