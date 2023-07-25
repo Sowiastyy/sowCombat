@@ -18,8 +18,10 @@ function love.load()
     combat:Hitbox(100, 50, 50, 50) -- The hitbox for our player. Parameters: X position, Y position, width, and height
 
     -- Specify the wall's attributes
-    combat:setGroup('wall')
-    combat:Hitbox(300, 100, 50, 200) -- The hitbox for the wall.
+    combat:setGroup('wall') -- The hitbox for the wall.
+    combat:Hitbox(300, 100, 50, 200).onCollision = function (self, trigger)
+        trigger:destroy()
+    end
 
     -- Specify the enemy's attributes
     combat:setGroup('enemy')
